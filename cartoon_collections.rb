@@ -1,8 +1,8 @@
 def roll_call_dwarves(array)
  order = 1
   array.each do |name| 
-    puts "#{order}, #{name"
-    
+    puts "#{order}, #{name}"
+    order += 1
   end
 end
 
