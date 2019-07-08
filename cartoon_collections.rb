@@ -22,5 +22,10 @@ def find_the_cheese(array)
   cheese types. each do |cheese|
     array.each do |element|
       if element == cheese
-        return 
+        return element
+      end
+    end
+  end
+  return NIL
+end
 end
