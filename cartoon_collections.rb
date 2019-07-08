@@ -1,4 +1,5 @@
 def roll_call_dwarves(array)
+ order = 1
   array.each do |name| 
     puts "#{"
   end
